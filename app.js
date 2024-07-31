@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.calculateScore();
             });
 
-            const submitBtn = document.createElement('button');
+            const submitBtn = document.createElement('button');            
 
             submitBtn.innerText = 'Submit';
             submitBtn.type = 'submit';       
@@ -204,8 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
             this.displayResult();
         }
 
-        displayResult() {
-            const resultDiv = document.createElement('div');
+        displayResult() {            
+            const resultDiv = document.createElement('div');            
             resultDiv.innerHTML = `Your score is ${this.score}/${this.questions.length}`;
             this.container.appendChild(resultDiv);
         }

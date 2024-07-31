@@ -1,3 +1,27 @@
+.quiz-container {
+    border: 1px solid #ccc;
+    padding: 24px;
+    display: flex;
+}
+
+.question-container {
+    margin-bottom: 24px;
+}
+
+button[type="submit"] {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    background-color:dodgerblue;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(24, 52, 43);
+}
+
 .options-container {
     display: flex;
     flex-direction: column;
