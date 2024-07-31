@@ -69,11 +69,11 @@ document.addEventListener('DOMContentLoaded', () => {
         questions: [
             {
                 id: 1,
-                text: 'Which country won world  2024?',
+                text: 'Which country won the last world cup?',
                 options: [
                     {
                         id: 1,
-                        text: 'France',
+                        text: 'Argentina',
                     },
                     {
                         id: 2,
@@ -84,11 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         text: 'England',
                     },
                 ],
-                correctOptionId: 2,
+                correctOptionId: 1,
             },
             {
                 id: 2,
-                text: 'Which country won Copa America 2024?',
+                text: 'Which country came second during the last world cup?',
                 options: [
                     {
                         id: 1,
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         id: 3,
-                        text: 'Argentina',
+                        text: 'France',
                     },
                 ],
                 correctOptionId: 3,
